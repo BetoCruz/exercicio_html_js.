@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-around; */
+    background-color: #75b0c7
+}
+.container{
+    width:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(110, 206, 235);
+    border-radius: 7px;
+    background-color: #b9ffff;
+    margin-top: 100px;
+    box-shadow: 2px 2px 4px #000000;
+}
+
+.container1{
+    background-color:#b9ffff ;
+    width: 500px;
+    margin: 16px;
+}
+.container2{
+    background-color:#81c9fa ;
+    width: 435px; 
+    height: 100px;  
+    border: 1px solid ;
+
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    box-shadow:2px 2px 4px #000000; ;
+}
+.container3{
+    margin: 16px;
+    background-color:#b9ffff;
+    width: 500px; 
+    border-style:  1px solid;
+    border-radius: px;
+}
+
+
+form{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+button{
+    background-color: #003785;
+    color: #eee5e5;
+    font-size: 20px;
+    border: 1px double black;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 2px;
+    font-family: "Audiowide", sans-serif;
+
+}
+button:hover{
+    background-color: #3fc8f1;
+}
+input, button{
+    margin-bottom: 2px;
+    border-radius: 3px;
+}
+textarea{
+    height: 100px;
+}
+
+.success-message {
+    background-color: #3cff96;
+    padding: 16px;
+    color: #fff;
+    display: none;
+}
+.error-message{
+    padding: 16px;
+    background-color: #ff3ca5;
+    color: #fff;
+    margin-bottom: 8px;
+    display: none;
+}
+
+input.error {
+    color: red;
+    border-color: red;
+    outline-color:red;
+
+}
+
+h1{
+font-family: "Audiowide", sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+
+h2{
+font-family: "Pridi", serif;
+font-weight: 200;
+font-style: italic; 
+}
+
+p{
+    border-radius: 5px;
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
